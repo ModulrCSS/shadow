@@ -1,0 +1,57 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Shadow Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/shadow
+  @source: http://www.getmodulr.com/css/shadow
+  ------------------------------------------------
+  @uses: modulr/shadow/*
+  @docs: true 
+\-------------------------------------------------*/
+
+[mod-shadow~="sm"],
+[mod-shadow~="on-hover-sm"]:hover,
+[mod-shadow~="on-focus-sm"]:focus{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+[mod-shadow~="md"],
+[mod-shadow~="on-hover-md"]:hover,
+[mod-shadow~="on-focus-md"]:focus{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+[mod-shadow~="lg"],
+[mod-shadow~="on-hover-lg"]:hover,
+[mod-shadow~="on-focus-lg"]:focus{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+[mod-shadow~="xl"],
+[mod-shadow~="on-hover-xl"]:hover,
+[mod-shadow~="on-focus-xl"]:focus{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+[mod-shadow~="xxl"],
+[mod-shadow~="on-hover-xxl"]:hover,
+[mod-shadow~="on-focus-xxl"]:focus{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/* -- remove shadow -- */
+
+[mod-shadow~="remove-shadow"],
+[mod-shadow~="on-hover-remove-shadow"]:hover,
+[mod-shadow~="on-focus-remove-shadow"]:focus{
+  box-shadow: 0 0 0 0 !important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/* -- sidenav shadow --*/
+
+[mod-shadow~="sidenav"]{
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
