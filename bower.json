@@ -1,0 +1,25 @@
+{
+  "name": "modulr-shadow",
+  "homepage": "https://github.com/ModulrCSS/shadow",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Shadow Module",
+  "main": "",
+  "keywords": [
+    "shadows",
+    "css",
+    "box-shadows",
+    "frontend",
+    "modulr",
+    "boostrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
